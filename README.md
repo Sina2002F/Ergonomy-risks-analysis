@@ -3,33 +3,3 @@ This repository focuses on identifying, analyzing, and mitigating ergonomics-rel
 
 
 **In progress**
-
-/ergonomic-web-app
-│── /backend
-│   ├── main.py         
-│   ├── routes.py      
-│   ├── models.py       
-│   ├── decision_tree.py 
-│   ├── database.db     
-│   ├── requirements.txt 
-│
-│── /frontend
-│   ├── index.html      
-│   ├── style.css      
-│   ├── app.js         
-│   ├── components/     
-│
-│── /static
-│   ├── images/        
-│   ├── styles/         
-│
-│── /templates
-│   ├── base.html      
-│   ├── questions.html  
-│   ├── results.html    # نمایش پیشنهادات ارگونومیکی
-│
-│── /data
-│   ├── dataset.csv    
-│   ├── preprocessed/  
-│
-│── README.md                  
