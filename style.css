@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('fonts/IRANSansX-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('fonts/IRANSansX-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
+
+
+body {
+    font-family: 'IRANSansX', sans-serif;
+    background: linear-gradient(135deg, #010408, #020a14);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    direction: rtl;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+button.start-animation {
+    animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0% { transform: scale(0.9); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
