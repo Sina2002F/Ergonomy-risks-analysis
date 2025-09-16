@@ -56,3 +56,23 @@ button.start-animation {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
+
+.about-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: right;
+    color: white;
+    line-height: 1.8;
+}
+
+.description-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: right;
+    color: white;
+    line-height: 1.6;
+}
