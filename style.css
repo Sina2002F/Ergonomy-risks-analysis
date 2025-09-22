@@ -115,3 +115,16 @@ button.start-animation {
 .image-item:hover::after {
   opacity: 1;
 }
+
+
+/*انتخاب*/
+
+.form-control option {
+  background-color: #333; /* رنگ زمینه تاریک */
+  color: white; /* رنگ متن سفید */
+}
+
+.form-control:focus {
+  outline: 2px solid #9c27b0; /* هایلایت بنفش هنگام focus */
+  outline-offset: 2px;
+}
