@@ -128,3 +128,82 @@ button.start-animation {
   outline: 2px solid #9c27b0; 
   outline-offset: 2px;
 }
+
+/* استایل‌های اختصاصی صفحه MMH */
+.assessment-title {
+  color: #4fc3f7;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.assessment-intro {
+  background: rgba(76, 175, 80, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-right: 3px solid #4caf50;
+}
+
+.assessment-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+  font-family: 'IRANSansX', sans-serif;
+}
+
+.assessment-info {
+  margin-top: 40px;
+  background: rgba(33, 150, 243, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info-list {
+  list-style-type: none;
+  padding-right: 0;
+}
+
+.info-list li {
+  padding: 8px 0;
+  position: relative;
+  padding-right: 25px;
+}
+
+.info-list li::before {
+  content: "•";
+  color: #2196f3;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  transition: transform 0.3s;
+}
+
+.btn-primary:hover .icon {
+  transform: translateX(5px);
+}
