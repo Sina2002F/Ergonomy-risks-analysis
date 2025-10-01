@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>انتخاب نوع وظیفه کاری - ارزیابی ارگونومی</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>🔍 انتخاب نوع وظیفه کاری</h1>
+
+      <form id="task-form">
+        <fieldset>
+          <legend>نوع وظیفه کاری را انتخاب کنید:</legend>
+          <div class="task-type-options">
+            <input
+              type="radio"
+              id="task-mmh"
+              name="task-type"
+              value="MMH"
+              required
+            />
+            <label for="task-mmh">وظایف دستی (MMH)</label>
+
+            <input
+              type="radio"
+              id="task-non-mmh"
+              name="task-type"
+              value="Non-MMH"
+              required
+            />
+            <label for="task-non-mmh">وظایف غیر دستی (Non-MMH)</label>
+
+            <input
+              type="radio"
+              id="task-special-purpose"
+              name="task-type"
+              value="Special-Purpose"
+              required
+            />
+            <label for="task-special-purpose">وظایف خاص</label>
+          </div>
+        </fieldset>
+        <button type="submit">ادامه</button>
+      </form>
+
+      <!-- بخش توضیحات -->
+      <div id="task-help" class="description-box">
+        <h2>📌 توضیحات درباره‌ی انواع وظایف</h2>
+        <p>
+          <strong>🛠 وظایف دستی (MMH):</strong> شامل بلند کردن، حمل کردن، هل دادن
+          یا کشیدن اشیا. این وظایف نیاز به دقت در ارگونومی دارند تا از آسیب‌های
+          اسکلتی-عضلانی جلوگیری شود.
+        </p>
+        <p>
+          <strong>💻 وظایف غیر دستی (Non-MMH):</strong> شامل کارهای دفتری، صنعتی
+          و خدماتی. این وظایف معمولاً شامل حرکات تکراری، نشستن‌های طولانی‌مدت یا
+          کار با کامپیوتر هستند.
+        </p>
+        <p>
+          <strong>🔧 وظایف خاص (Special-Purpose):</strong> شامل حمل بیمار،
+          مونتاژ قطعات، کشاورزی، و فعالیت‌هایی که نیاز به روش‌های تخصصی ارگونومی
+          دارند.
+        </p>
+      </div>
+
+      <div class="image-gallery">
+        <div class="image-item">
+          <img
+            src="/Image/mmh.jpg"
+            alt="وظایف دستی: کارگر در حال بلند کردن جعبه"
+            loading="lazy"
+          />
+          <p>🔹 وظایف دستی شامل بلند کردن، حمل کردن و هل دادن بار هستند.</p>
+        </div>
+
+        <div class="image-item">
+          <img
+            src="/Image/nonmmh.jpg"
+            alt="وظایف غیر دستی: فردی در حال کار با کامپیوتر"
+            loading="lazy"
+          />
+          <p>💻 وظایف غیر دستی شامل کارهای دفتری، صنعتی و خدماتی هستند.</p>
+        </div>
+
+        <div class="image-item">
+          <img
+            src="/Image/special.jpg"
+            alt="وظایف خاص: پرستار در حال جابجایی بیمار"
+            loading="lazy"
+          />
+          <p>🌾 وظایف خاص شامل حمل بیمار، کشاورزی و مونتاژ قطعات هستند.</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
