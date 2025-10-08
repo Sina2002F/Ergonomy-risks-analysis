@@ -469,3 +469,195 @@ button.start-animation {
 .method-select-btn:hover {
   background: #388e3c;
 }
+
+/* استایل‌های اختصاصی صفحه غربالگری */
+.screening-page .assessment-title {
+  color: #ff9800; /* رنگ نارنجی متمایز */
+}
+
+.screening-page .assessment-intro {
+  border-right-color: #ff9800;
+  background: rgba(255, 152, 0, 0.1);
+}
+
+.screening-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.screening-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff9800;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.screening-card:hover {
+  border-color: #ffc107;
+  transform: translateY(-3px);
+}
+
+.screening-card.active {
+  background: rgba(255, 152, 0, 0.2);
+  border-color: #ffc107;
+  box-shadow: 0 0 0 2px #ffc107;
+}
+
+.screening-input {
+  display: none;
+}
+
+.screening-label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-icon {
+  font-size: 2rem;
+}
+
+.activity-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff9800;
+}
+
+.activity-desc {
+  font-size: 0.9rem;
+  color: #ffecb3;
+}
+
+/* استایل‌های صفحه پیشنهاد روش‌ها */
+.methods-page {
+  background: linear-gradient(135deg, #1a237e, #0d47a1);
+  color: white;
+}
+
+.methods-title {
+  color: #ffc107;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.method-section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.method-section h3 {
+  color: #4fc3f7;
+  border-bottom: 1px solid #4fc3f7;
+  padding-bottom: 10px;
+}
+
+.method-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.method-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #4fc3f7;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.method-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(79, 195, 247, 0.3);
+}
+
+.method-card.selected {
+  background: rgba(79, 195, 247, 0.2);
+  border: 2px solid #ffc107;
+}
+
+.method-card h4 {
+  color: #4fc3f7;
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.method-fullname {
+  color: #b3e5fc;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.method-desc {
+  color: #e1f5fe;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.method-standards {
+  margin: 15px 0;
+  font-size: 0.85rem;
+}
+
+.standard-tag {
+  display: inline-block;
+  background: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin: 3px;
+  font-family: monospace;
+}
+
+.method-select-btn {
+  background: #4fc3f7;
+  color: #0d47a1;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.method-select-btn:hover {
+  background: #29b6f6;
+}
+
+.team-method {
+  border-color: #ffc107;
+}
+
+.team-method h4 {
+  color: #ffc107;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-secondary {
+  background: #f44336;
+  color: white;
+}
+
+.error {
+  color: #ffcdd2;
+  background: #b71c1c;
+  padding: 15px;
+  border-radius: 5px;
+}
