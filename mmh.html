@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ارزیابی حمل دستی بار (MMH) | سیستم ارگونومی</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="assessment-title">🔍 ارزیابی حمل دستی بار (MMH)</h1>
+
+      <div class="assessment-intro">
+        <p>
+          این بخش مخصوص تحلیل وظایف دستی شامل بلند کردن، حمل کردن، هل دادن یا
+          کشیدن بار است.
+        </p>
+      </div>
+
+      <form id="mmh-assessment-form" class="assessment-form">
+        <div class="form-group">
+          <label for="purpose">هدف ارزیابی:</label>
+          <select id="purpose" name="purpose" required class="form-control">
+            <option value="" disabled selected>-- لطفاً انتخاب کنید --</option>
+            <option value="max-weight">تعیین حداکثر وزن قابل قبول</option>
+            <option value="full-body">ارزیابی عمومی از کل بدن</option>
+            <option value="screening">غربالگری وظایف</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn-primary">
+            ادامه
+            <span class="icon">→</span>
+          </button>
+        </div>
+      </form>
+
+      <div class="assessment-info">
+        <h2>📌 روش ارزیابی MMH</h2>
+        <ul class="info-list">
+          <li>بر اساس استانداردهای NIOSH و ISO 11228</li>
+          <li>تحلیل عوامل خطر شامل وزن، فرکانس، وضعیت بدن و شرایط محیطی</li>
+          <li>ارائه پیشنهادات اصلاحی برای کاهش خطرات</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
