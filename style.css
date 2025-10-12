@@ -661,3 +661,86 @@ button.start-animation {
   padding: 15px;
   border-radius: 5px;
 }
+
+/* استایل‌های اختصاصی صفحه اندام تحتانی */
+.lower-limb-page {
+  background: linear-gradient(135deg, #004d40, #00796b);
+}
+
+.lower-limb-page .assessment-title {
+  color: #b2dfdb;
+}
+
+.lower-limb-page .assessment-intro {
+  border-right-color: #4db6ac;
+  background: rgba(77, 182, 172, 0.1);
+}
+
+.method-card {
+  background: rgba(178, 223, 219, 0.1);
+  border: 1px solid #4db6ac;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.method-card.selected {
+  background: rgba(77, 182, 172, 0.2);
+  border: 2px solid #b2dfdb;
+  box-shadow: 0 0 10px rgba(178, 223, 219, 0.3);
+}
+
+.method-card h3 {
+  color: #2d9288;
+  margin-top: 0;
+}
+
+.method-fullname {
+  color: #b2dfdb;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.method-features h4 {
+  color: #b2dfdb;
+  margin-bottom: 10px;
+}
+
+.method-features ul {
+  padding-right: 20px;
+  color: #e0f2f1;
+}
+
+.method-features li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.method-features li::before {
+  content: "•";
+  color: #2f948a;
+  position: absolute;
+  right: -15px;
+}
+
+.method-comparison {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.method-comparison th, .method-comparison td {
+  padding: 12px;
+  text-align: right;
+  border: 1px solid #4db6ac;
+}
+
+.method-comparison th {
+  background-color: rgba(77, 182, 172, 0.2);
+  color: #b2dfdb;
+}
+
+.method-comparison tr:nth-child(even) {
+  background-color: rgba(178, 223, 219, 0.05);
+}
