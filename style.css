@@ -744,3 +744,101 @@ button.start-animation {
 .method-comparison tr:nth-child(even) {
   background-color: rgba(178, 223, 219, 0.05);
 }
+
+/* استایل‌های اختصاصی صفحه اندام فوقانی */
+.upper-limb-page {
+  background: linear-gradient(135deg, #311b92, #4527a0);
+}
+
+.upper-limb-page .assessment-title {
+  color: #b39ddb;
+}
+
+.upper-limb-page .assessment-intro {
+  border-right-color: #7e57c2;
+  background: rgba(126, 87, 194, 0.1);
+}
+
+.body-region-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #7e57c2;
+  color: #d1c4e9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab-btn:hover {
+  background: rgba(126, 87, 194, 0.3);
+}
+
+.tab-btn.active {
+  background: #7e57c2;
+  color: white;
+  font-weight: bold;
+}
+
+.method-section {
+  display: none;
+}
+
+.method-section.active {
+  display: block;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.method-card {
+  background: rgba(179, 157, 219, 0.1);
+  border: 1px solid #7e57c2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.method-card.selected {
+  background: rgba(126, 87, 194, 0.2);
+  border: 2px solid #b39ddb;
+  box-shadow: 0 0 15px rgba(179, 157, 219, 0.3);
+}
+
+.method-card h3 {
+  color: #b39ddb;
+  margin-top: 0;
+}
+
+.method-details p {
+  color: #d1c4e9;
+  line-height: 1.6;
+}
+
+.method-details ul {
+  padding-right: 20px;
+  color: #ede7f6;
+}
+
+.method-details li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.method-details li::before {
+  content: "•";
+  color: #b39ddb;
+  position: absolute;
+  right: -15px;
+}
