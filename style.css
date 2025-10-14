@@ -842,3 +842,103 @@ button.start-animation {
   position: absolute;
   right: -15px;
 }
+
+/* استایل‌های اختصاصی صفحه کل بدن */
+.whole-body-page {
+  background: linear-gradient(135deg, #1b5e20, #2e7d32);
+}
+
+.whole-body-page .assessment-title {
+  color: #c8e6c9;
+}
+
+.whole-body-page .assessment-intro {
+  border-right-color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.evaluation-types {
+  margin: 30px 0;
+}
+
+.evaluation-type {
+  margin-bottom: 40px;
+}
+
+.evaluation-type h2 {
+  color: #a5d6a7;
+  border-bottom: 1px solid #4caf50;
+  padding-bottom: 10px;
+}
+
+.method-card {
+  background: rgba(200, 230, 201, 0.1);
+  border: 1px solid #4caf50;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.method-card.selected {
+  background: rgba(76, 175, 80, 0.2);
+  border: 2px solid #c8e6c9;
+  box-shadow: 0 0 15px rgba(200, 230, 201, 0.3);
+}
+
+.method-card h3 {
+  color: #4caf50;
+  margin-top: 0;
+}
+
+.method-fullname {
+  color: #a5d6a7;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.method-details ul {
+  padding-right: 20px;
+  color: #e8f5e9;
+}
+
+.method-details li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.method-details li::before {
+  content: "•";
+  color: #4caf50;
+  position: absolute;
+  right: -15px;
+}
+
+.comparison-table {
+  margin: 40px 0;
+}
+
+.comparison-table h2 {
+  color: #a5d6a7;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.comparison-table th, .comparison-table td {
+  padding: 12px;
+  text-align: right;
+  border: 1px solid #4caf50;
+}
+
+.comparison-table th {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #c8e6c9;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: rgba(200, 230, 201, 0.05);
+}
