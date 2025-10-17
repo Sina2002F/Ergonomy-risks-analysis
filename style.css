@@ -1495,3 +1495,128 @@ button.start-animation {
   border-radius: 20px;
   font-family: monospace;
 }
+
+
+/* استایل‌های اختصاصی صفحه ROSA */
+      .rosa-page {
+        background: linear-gradient(135deg, #01579b, #0288d1);
+        color: #e1f5fe;
+      }
+      
+      .rosa-header {
+        text-align: center;
+        padding: 30px 0;
+        background: rgba(2, 136, 209, 0.3);
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+      
+      .rosa-title {
+        color: #b3e5fc;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      
+      .rosa-subtitle {
+        color: #e1f5fe;
+        font-size: 1.1rem;
+      }
+      
+      .rosa-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 30px 0;
+      }
+      
+      .rosa-step {
+        background: rgba(179, 229, 252, 0.1);
+        border: 1px solid #4fc3f7;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .step-number {
+        background: #4fc3f7;
+        color: #01579b;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-left: 15px;
+        flex-shrink: 0;
+      }
+      
+      .step-content h3 {
+        color: #b3e5fc;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      
+      .rosa-image {
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+      
+      .risk-levels {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin: 30px 0;
+      }
+      
+      .risk-level {
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+      }
+      
+      .risk-level h4 {
+        margin-top: 0;
+      }
+      
+      .low-risk {
+        background: rgba(139, 195, 74, 0.2);
+        border: 1px solid #8bc34a;
+      }
+      
+      .moderate-risk {
+        background: rgba(255, 235, 59, 0.2);
+        border: 1px solid #ffeb3b;
+      }
+      
+      .high-risk {
+        background: rgba(244, 67, 54, 0.2);
+        border: 1px solid #f44336;
+      }
+      
+      .start-rosa-btn {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 30px auto;
+        padding: 15px;
+        background: #4fc3f7;
+        color: #01579b;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-align: center;
+      }
+      
+      .start-rosa-btn:hover {
+        background: #29b6f6;
+        transform: translateY(-3px);
+      }
+
