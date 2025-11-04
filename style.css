@@ -1901,3 +1901,89 @@ button.start-animation {
   text-align: center;
   margin: 30px 0;
 }
+
+/* Results Section */
+.reba-page .results-container {
+  background: rgba(200, 230, 201, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border-left: 3px solid #4caf50;
+}
+
+.reba-page .results-container h2 {
+  color: #a5d6a7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reba-page .score-display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.reba-page .score-box {
+  background: rgba(76, 175, 80, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #4caf50;
+}
+
+.reba-page .score-box h3 {
+  color: #a5d6a7;
+  margin-top: 0;
+}
+
+.reba-page .score-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.reba-page .final-score .score-value {
+  font-size: 3.5rem;
+  color: #ffeb3b;
+  grid-column: span 2;
+}
+
+.reba-page .recommendation {
+  background: rgba(76, 175, 80, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.reba-page .recommendation h3 {
+  color: #a5d6a7;
+  margin-top: 0;
+}
+
+.reba-page .recommendation-text {
+  color: #e8f5e9;
+  line-height: 1.8;
+  padding-right: 15px;
+}
+
+.reba-page .action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .reba-page .score-display {
+    grid-template-columns: 1fr;
+  }
+  
+  .reba-page .final-score {
+    grid-column: span 1;
+  }
+}
+
+
