@@ -1987,3 +1987,160 @@ button.start-animation {
 }
 
 
+/* ROSA Form Page Specific Styles */
+.rosa-form-page {
+  background: linear-gradient(135deg, #01579b, #0288d1);
+}
+
+.rosa-form-page .assessment-title {
+  color: #b3e5fc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rosa-form-page .assessment-intro {
+  background: rgba(179, 229, 252, 0.1);
+  border-right: 3px solid #4fc3f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.rosa-form-page .form-section {
+  background: rgba(179, 229, 252, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border-left: 3px solid #4fc3f7;
+}
+
+.rosa-form-page .form-section h2 {
+  color: #4fc3f7;
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #4fc3f7;
+  margin-bottom: 20px;
+}
+
+.rosa-form-page .form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.rosa-form-page .form-group {
+  margin-bottom: 20px;
+}
+
+.rosa-form-page .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #b3e5fc;
+  font-weight: bold;
+}
+
+.rosa-form-page .form-control {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #4fc3f7;
+  border-radius: 5px;
+  color: white;
+  font-family: 'IRANSansX', sans-serif;
+}
+
+.rosa-form-page .form-control:focus {
+  outline: 2px solid #4fc3f7;
+  outline-offset: 2px;
+}
+
+.rosa-form-page textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.rosa-form-page .form-actions {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Results Section */
+.rosa-form-page .results-container {
+  background: rgba(179, 229, 252, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border-left: 3px solid #4fc3f7;
+}
+
+.rosa-form-page .results-container h2 {
+  color: #b3e5fc;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rosa-form-page .score-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.rosa-form-page .score-box {
+  background: rgba(79, 195, 247, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #4fc3f7;
+}
+
+.rosa-form-page .score-box h3 {
+  color: #b3e5fc;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.rosa-form-page .score-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.rosa-form-page .final-score {
+  grid-column: span 2;
+}
+
+.rosa-form-page .final-score .score-value {
+  font-size: 3.5rem;
+  color: #ffeb3b;
+}
+
+.rosa-form-page .recommendation {
+  background: rgba(79, 195, 247, 0.2);
+  padding: 25px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rosa-form-page .recommendation h3 {
+  color: #b3e5fc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.rosa-form-page .recommendation-text {
+  color: #e1f5fe;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.rosa-form-page .action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
