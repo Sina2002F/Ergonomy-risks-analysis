@@ -2359,3 +2359,28 @@ button.start-animation {
   margin-top: 30px;
   flex-wrap: wrap;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .eaws-form-page .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .eaws-form-page .score-display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .eaws-form-page .final-score {
+    grid-column: span 2;
+  }
+  
+  .eaws-form-page .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .eaws-form-page .action-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
