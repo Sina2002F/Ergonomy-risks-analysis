@@ -2724,3 +2724,81 @@ button.start-animation {
   font-size: 2.5rem;
   color: #ffeb3b;
 }
+
+/* Risk Indicator */
+.ptai-page .risk-indicator {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.ptai-page .risk-level {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.ptai-page .risk-level.low-risk {
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
+  border: 3px solid #81c784;
+}
+
+.ptai-page .risk-level.medium-risk {
+  background: linear-gradient(135deg, #ffeb3b, #ffd54f);
+  border: 3px solid #fff176;
+  color: #333;
+}
+
+.ptai-page .risk-level.high-risk {
+  background: linear-gradient(135deg, #f44336, #ef5350);
+  border: 3px solid #e57373;
+}
+
+/* Detailed Analysis */
+.ptai-page .detailed-analysis {
+  background: rgba(77, 182, 172, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.ptai-page .detailed-analysis h3 {
+  color: #4db6ac;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.ptai-page .analysis-text {
+  color: #e0f2f1;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.ptai-page .recommendation {
+  background: rgba(77, 182, 172, 0.3);
+  padding: 25px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.ptai-page .recommendation h3 {
+  color: #b2dfdb;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.ptai-page .recommendation-text {
+  color: #e0f2f1;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.ptai-page .action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
