@@ -2802,3 +2802,103 @@ button.start-animation {
   margin-top: 30px;
   flex-wrap: wrap;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ptai-page .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .ptai-page .score-display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ptai-page .final-score {
+    grid-column: span 2;
+  }
+  
+  .ptai-page .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ptai-page .action-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+/* DINO Page Specific Styles */
+.dino-page {
+  background: linear-gradient(135deg, #233e66, #243c68);
+}
+
+.dino-page .assessment-title {
+  color: #f8bbd9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dino-page .assessment-intro {
+  background: rgba(248, 187, 217, 0.1);
+  border-right: 3px solid #ec40d5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dino-page .form-section {
+  background: rgba(248, 187, 217, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border-left: 3px solid #ec40d5;
+}
+
+.dino-page .form-section h2 {
+  color: #d8b0bd;
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #4b4a4a;
+  margin-bottom: 20px;
+}
+
+.dino-page .form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.dino-page .form-group {
+  margin-bottom: 20px;
+}
+
+.dino-page .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fce4ec;
+  font-weight: bold;
+}
+
+.dino-page .form-control {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ec407a;
+  border-radius: 5px;
+  color: white;
+  font-family: 'IRANSansX', sans-serif;
+}
+
+.dino-page .form-control:focus {
+  outline: 2px solid #ec407a;
+  outline-offset: 2px;
+}
+
+.dino-page .form-actions {
+  text-align: center;
+  margin: 40px 0;
+}
