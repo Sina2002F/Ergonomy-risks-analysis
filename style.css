@@ -2903,3 +2903,54 @@ button.start-animation {
   margin: 40px 0;
 }
 
+/* Results Section */
+.dino-page .results-container {
+  background: rgba(248, 187, 217, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border-left: 3px solid #ec407a;
+}
+
+.dino-page .results-container h2 {
+  color: #f8bbd9;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dino-page .score-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 30px 0;
+}
+
+.dino-page .score-box {
+  background: rgba(236, 64, 122, 0.2);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ec407a;
+}
+
+.dino-page .score-box h3 {
+  color: #f8bbd9;
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.dino-page .score-value {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.dino-page .final-score {
+  grid-column: span 2;
+}
+
+.dino-page .final-score .score-value {
+  font-size: 2.2rem;
+  color: #ffeb3b;
+}
