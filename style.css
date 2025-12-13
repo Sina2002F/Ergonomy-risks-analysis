@@ -3002,3 +3002,40 @@ button.start-animation {
   margin-top: 30px;
   flex-wrap: wrap;
 }
+
+
+/* Animation for dynamic elements */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.dino-page .score-box:hover {
+  animation: pulse 0.5s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dino-page .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .dino-page .score-display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .dino-page .final-score {
+    grid-column: span 2;
+  }
+  
+  .dino-page .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dino-page .action-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
