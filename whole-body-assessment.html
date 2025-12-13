@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ارزیابی کل بدن | سیستم ارگونومی</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="whole-body-page">
+    <main class="container">
+      <h1 class="assessment-title">🧍 ارزیابی کل بدن</h1>
+
+      <div class="assessment-intro">
+        <p>لطفاً نوع ارزیابی مورد نظر خود را انتخاب نمایید:</p>
+      </div>
+
+      <div class="evaluation-types">
+        <!-- ارزیابی کلی بدن -->
+        <div class="evaluation-type">
+          <h2>ارزیابی کلی بدن (یک عدد واحد)</h2>
+          <div class="method-cards">
+            <div class="method-card">
+              <h3>OWAS</h3>
+              <div class="method-details">
+                <p class="method-fullname">
+                  Ovako Working Posture Analysis System
+                </p>
+                <ul>
+                  <li>ارزیابی پوسچرهای کاری در 4 سطح</li>
+                  <li>مناسب برای محیط‌های صنعتی</li>
+                  <li>امتیازدهی بر اساس کدهای پوسچر</li>
+                </ul>
+              </div>
+              <button class="method-select-btn" data-method="owas">
+                انتخاب
+              </button>
+            </div>
+
+            <div class="method-card">
+              <h3>WERA</h3>
+              <div class="method-details">
+                <p class="method-fullname">
+                  Whole-Body Ergonomic Risk Assessment
+                </p>
+                <ul>
+                  <li>ارزیابی ریسک ارگونومیک کل بدن</li>
+                  <li>ترکیب عوامل مختلف ارگونومیک</li>
+                  <li>امتیازدهی کمی به ریسک‌ها</li>
+                </ul>
+              </div>
+              <button class="method-select-btn" data-method="wera">
+                انتخاب
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ارزیابی سمت‌های بدن -->
+        <div class="evaluation-type">
+          <h2>ارزیابی مجزای سمت چپ و راست بدن</h2>
+          <div class="method-cards">
+            <div class="method-card">
+              <h3>RULA</h3>
+              <div class="method-details">
+                <p class="method-fullname">Rapid Upper Limb Assessment</p>
+                <ul>
+                  <li>ارزیابی سریع اندام فوقانی</li>
+                  <li>امتیازدهی جداگانه برای هر سمت</li>
+                  <li>مناسب برای کارهای ایستگاهی</li>
+                </ul>
+              </div>
+              <button class="method-select-btn" data-method="rula">
+                انتخاب
+              </button>
+            </div>
+
+            <div class="method-card">
+              <h3>REBA</h3>
+              <div class="method-details">
+                <p class="method-fullname">Rapid Entire Body Assessment</p>
+                <ul>
+                  <li>ارزیابی سریع تمام بدن</li>
+                  <li>تحلیل پوسچرهای دینامیک</li>
+                  <li>امتیازدهی برای هر سمت بدن</li>
+                </ul>
+              </div>
+              <button class="method-select-btn" data-method="reba">
+                انتخاب
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="comparison-table">
+        <h2>📊 مقایسه روش‌های ارزیابی</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>روش</th>
+              <th>تمرکز</th>
+              <th>زمان اجرا</th>
+              <th>بهترین کاربرد</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>OWAS</td>
+              <td>پوسچر کلی بدن</td>
+              <td>5-10 دقیقه</td>
+              <td>محیط‌های صنعتی</td>
+            </tr>
+            <tr>
+              <td>WERA</td>
+              <td>ریسک‌های ارگونومیک</td>
+              <td>10-15 دقیقه</td>
+              <td>مشاغل پیچیده</td>
+            </tr>
+            <tr>
+              <td>RULA</td>
+              <td>اندام فوقانی</td>
+              <td>3-5 دقیقه</td>
+              <td>کارهای ایستگاهی</td>
+            </tr>
+            <tr>
+              <td>REBA</td>
+              <td>تمام بدن</td>
+              <td>5-8 دقیقه</td>
+              <td>پوسچرهای دینامیک</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="navigation-buttons">
+        <button id="back-btn" class="btn-secondary">بازگشت</button>
+      </div>
+    </main>
+
+    <script src="whole-body-assessment.js"></script>
+  </body>
+</html>
