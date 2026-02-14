@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
 // مدیریت فرم ارزیابی MMH
 document.getElementById('mmh-assessment-form')?.addEventListener('submit', function(e) {
   e.preventDefault();
@@ -439,4 +438,5 @@ document.getElementById('special-assessment-form').addEventListener('submit', fu
   }
 
 });
+
 
