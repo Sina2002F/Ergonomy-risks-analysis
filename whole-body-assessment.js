@@ -10,7 +10,7 @@ document.querySelectorAll(".method-select-btn").forEach((btn) => {
       card.classList.remove("selected");
     });
     this.closest(".method-card").classList.add("selected");
-    
+
     // ذخیره اطلاعات روش انتخاب شده در localStorage
     localStorage.setItem(
       "selectedAssessmentMethod",
