@@ -94,3 +94,4 @@ function getMethodDetails(method) {
   return details[method] || {};
 
 }
+
